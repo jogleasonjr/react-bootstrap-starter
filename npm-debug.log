@@ -1,227 +1,28 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'publish' ]
+1 verbose cli   'version',
+1 verbose cli   'patch' ]
 2 info using npm@1.4.3
 3 info using node@v0.10.26
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
-5 verbose publish [ '.' ]
-6 verbose cache add [ '.', null ]
-7 verbose cache add name=undefined spec="." args=[".",null]
-8 verbose parsed url { protocol: null,
-8 verbose parsed url   slashes: null,
-8 verbose parsed url   auth: null,
-8 verbose parsed url   host: null,
-8 verbose parsed url   port: null,
-8 verbose parsed url   hostname: null,
-8 verbose parsed url   hash: null,
-8 verbose parsed url   search: null,
-8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: '.',
-8 verbose parsed url   path: '.',
-8 verbose parsed url   href: '.' }
-9 silly lockFile 3a52ce78- .
-10 verbose lock . C:\Users\jgleason\AppData\Roaming\npm-cache\3a52ce78-.lock
-11 verbose tar pack [ 'C:\\Users\\jgleason\\AppData\\Local\\Temp\\npm-15576-yYIdP89h\\1423244952520-0.9962872976902872\\tmp.tgz',
-11 verbose tar pack   '.' ]
-12 verbose tarball C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-13 verbose folder .
-14 info prepublish velcro@1.0.1
-15 silly lockFile 1f1177db-tar tar://.
-16 verbose lock tar://. C:\Users\jgleason\AppData\Roaming\npm-cache\1f1177db-tar.lock
-17 silly lockFile d1985bf4-52520-0-9962872976902872-tmp-tgz tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-18 verbose lock tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz C:\Users\jgleason\AppData\Roaming\npm-cache\d1985bf4-52520-0-9962872976902872-tmp-tgz.lock
-19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 1f1177db-tar tar://.
-21 silly lockFile d1985bf4-52520-0-9962872976902872-tmp-tgz tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-22 silly lockFile d1985bf4-52520-0-9962872976902872-tmp-tgz tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-23 verbose tar unpack C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-24 silly lockFile 498dcf24-52520-0-9962872976902872-package tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-25 verbose lock tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package C:\Users\jgleason\AppData\Roaming\npm-cache\498dcf24-52520-0-9962872976902872-package.lock
-26 silly lockFile d1985bf4-52520-0-9962872976902872-tmp-tgz tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-27 verbose lock tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz C:\Users\jgleason\AppData\Roaming\npm-cache\d1985bf4-52520-0-9962872976902872-tmp-tgz.lock
-28 silly gunzTarPerm modes [ '755', '644' ]
-29 silly gunzTarPerm extractEntry package.json
-30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-31 silly gunzTarPerm extractEntry .npmignore
-32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
-33 silly gunzTarPerm extractEntry README.md
-34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-35 silly gunzTarPerm extractEntry gulpfile.js
-36 silly gunzTarPerm modified mode [ 'gulpfile.js', 438, 420 ]
-37 silly gunzTarPerm extractEntry gulp/config.js
-38 silly gunzTarPerm modified mode [ 'gulp/config.js', 438, 420 ]
-39 silly gunzTarPerm extractEntry gulp/tasks/browserSync.js
-40 silly gunzTarPerm modified mode [ 'gulp/tasks/browserSync.js', 438, 420 ]
-41 silly gunzTarPerm extractEntry gulp/tasks/browserify.js
-42 silly gunzTarPerm modified mode [ 'gulp/tasks/browserify.js', 438, 420 ]
-43 silly gunzTarPerm extractEntry gulp/tasks/build.js
-44 silly gunzTarPerm modified mode [ 'gulp/tasks/build.js', 438, 420 ]
-45 silly gunzTarPerm extractEntry gulp/tasks/default.js
-46 silly gunzTarPerm modified mode [ 'gulp/tasks/default.js', 438, 420 ]
-47 silly gunzTarPerm extractEntry gulp/tasks/less.js
-48 silly gunzTarPerm modified mode [ 'gulp/tasks/less.js', 438, 420 ]
-49 silly gunzTarPerm extractEntry gulp/tasks/markup.js
-50 silly gunzTarPerm modified mode [ 'gulp/tasks/markup.js', 438, 420 ]
-51 silly gunzTarPerm extractEntry gulp/tasks/setWatch.js
-52 silly gunzTarPerm modified mode [ 'gulp/tasks/setWatch.js', 438, 420 ]
-53 silly gunzTarPerm extractEntry gulp/tasks/svgs.js
-54 silly gunzTarPerm modified mode [ 'gulp/tasks/svgs.js', 438, 420 ]
-55 silly gunzTarPerm extractEntry gulp/tasks/watch.js
-56 silly gunzTarPerm modified mode [ 'gulp/tasks/watch.js', 438, 420 ]
-57 silly gunzTarPerm extractEntry gulp/util/bundleLogger.js
-58 silly gunzTarPerm modified mode [ 'gulp/util/bundleLogger.js', 438, 420 ]
-59 silly gunzTarPerm extractEntry gulp/util/handleErrors.js
-60 silly gunzTarPerm modified mode [ 'gulp/util/handleErrors.js', 438, 420 ]
-61 silly gunzTarPerm extractEntry src/app/app.jsx
-62 silly gunzTarPerm modified mode [ 'src/app/app.jsx', 438, 420 ]
-63 silly gunzTarPerm extractEntry src/app/components/main.jsx
-64 silly gunzTarPerm modified mode [ 'src/app/components/main.jsx', 438, 420 ]
-65 silly gunzTarPerm extractEntry src/app/components/navigation.jsx
-66 silly gunzTarPerm modified mode [ 'src/app/components/navigation.jsx', 438, 420 ]
-67 silly gunzTarPerm extractEntry src/less/main.less
-68 silly gunzTarPerm modified mode [ 'src/less/main.less', 438, 420 ]
-69 silly gunzTarPerm extractEntry src/www/index.html
-70 silly gunzTarPerm modified mode [ 'src/www/index.html', 438, 420 ]
-71 silly lockFile 498dcf24-52520-0-9962872976902872-package tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-72 silly lockFile 498dcf24-52520-0-9962872976902872-package tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-73 silly lockFile d1985bf4-52520-0-9962872976902872-tmp-tgz tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-74 silly lockFile d1985bf4-52520-0-9962872976902872-tmp-tgz tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\tmp.tgz
-75 verbose tar pack [ 'C:\\Users\\jgleason\\AppData\\Roaming\\npm-cache\\velcro\\1.0.1\\package.tgz',
-75 verbose tar pack   'C:\\Users\\jgleason\\AppData\\Local\\Temp\\npm-15576-yYIdP89h\\1423244952520-0.9962872976902872\\package' ]
-76 verbose tarball C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-77 verbose folder C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-78 silly lockFile 498dcf24-52520-0-9962872976902872-package tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-79 verbose lock tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package C:\Users\jgleason\AppData\Roaming\npm-cache\498dcf24-52520-0-9962872976902872-package.lock
-80 silly lockFile 37df057e-m-cache-velcro-1-0-1-package-tgz tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-81 verbose lock tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz C:\Users\jgleason\AppData\Roaming\npm-cache\37df057e-m-cache-velcro-1-0-1-package-tgz.lock
-82 silly lockFile 498dcf24-52520-0-9962872976902872-package tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-83 silly lockFile 498dcf24-52520-0-9962872976902872-package tar://C:\Users\jgleason\AppData\Local\Temp\npm-15576-yYIdP89h\1423244952520-0.9962872976902872\package
-84 silly lockFile 37df057e-m-cache-velcro-1-0-1-package-tgz tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-85 silly lockFile 37df057e-m-cache-velcro-1-0-1-package-tgz tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-86 silly lockFile 71cd0f75-g-npm-cache-velcro-1-0-1-package C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package
-87 verbose lock C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package C:\Users\jgleason\AppData\Roaming\npm-cache\71cd0f75-g-npm-cache-velcro-1-0-1-package.lock
-88 silly lockFile 71cd0f75-g-npm-cache-velcro-1-0-1-package C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package
-89 silly lockFile 71cd0f75-g-npm-cache-velcro-1-0-1-package C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package
-90 verbose tar unpack C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-91 silly lockFile 5c8a9ce2-g-npm-cache-velcro-1-0-1-package tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package
-92 verbose lock tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package C:\Users\jgleason\AppData\Roaming\npm-cache\5c8a9ce2-g-npm-cache-velcro-1-0-1-package.lock
-93 silly lockFile 37df057e-m-cache-velcro-1-0-1-package-tgz tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-94 verbose lock tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz C:\Users\jgleason\AppData\Roaming\npm-cache\37df057e-m-cache-velcro-1-0-1-package-tgz.lock
-95 silly gunzTarPerm modes [ '755', '644' ]
-96 silly gunzTarPerm extractEntry package.json
-97 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-98 silly gunzTarPerm extractEntry .npmignore
-99 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
-100 silly gunzTarPerm extractEntry README.md
-101 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-102 silly gunzTarPerm extractEntry gulpfile.js
-103 silly gunzTarPerm modified mode [ 'gulpfile.js', 438, 420 ]
-104 silly gunzTarPerm extractEntry gulp/config.js
-105 silly gunzTarPerm modified mode [ 'gulp/config.js', 438, 420 ]
-106 silly gunzTarPerm extractEntry gulp/tasks/browserSync.js
-107 silly gunzTarPerm modified mode [ 'gulp/tasks/browserSync.js', 438, 420 ]
-108 silly gunzTarPerm extractEntry gulp/tasks/browserify.js
-109 silly gunzTarPerm modified mode [ 'gulp/tasks/browserify.js', 438, 420 ]
-110 silly gunzTarPerm extractEntry gulp/tasks/build.js
-111 silly gunzTarPerm modified mode [ 'gulp/tasks/build.js', 438, 420 ]
-112 silly gunzTarPerm extractEntry gulp/tasks/default.js
-113 silly gunzTarPerm modified mode [ 'gulp/tasks/default.js', 438, 420 ]
-114 silly gunzTarPerm extractEntry gulp/tasks/less.js
-115 silly gunzTarPerm modified mode [ 'gulp/tasks/less.js', 438, 420 ]
-116 silly gunzTarPerm extractEntry gulp/tasks/markup.js
-117 silly gunzTarPerm modified mode [ 'gulp/tasks/markup.js', 438, 420 ]
-118 silly gunzTarPerm extractEntry gulp/tasks/setWatch.js
-119 silly gunzTarPerm modified mode [ 'gulp/tasks/setWatch.js', 438, 420 ]
-120 silly gunzTarPerm extractEntry gulp/tasks/svgs.js
-121 silly gunzTarPerm modified mode [ 'gulp/tasks/svgs.js', 438, 420 ]
-122 silly gunzTarPerm extractEntry gulp/tasks/watch.js
-123 silly gunzTarPerm modified mode [ 'gulp/tasks/watch.js', 438, 420 ]
-124 silly gunzTarPerm extractEntry gulp/util/bundleLogger.js
-125 silly gunzTarPerm modified mode [ 'gulp/util/bundleLogger.js', 438, 420 ]
-126 silly gunzTarPerm extractEntry gulp/util/handleErrors.js
-127 silly gunzTarPerm modified mode [ 'gulp/util/handleErrors.js', 438, 420 ]
-128 silly gunzTarPerm extractEntry src/app/app.jsx
-129 silly gunzTarPerm modified mode [ 'src/app/app.jsx', 438, 420 ]
-130 silly gunzTarPerm extractEntry src/app/components/main.jsx
-131 silly gunzTarPerm modified mode [ 'src/app/components/main.jsx', 438, 420 ]
-132 silly gunzTarPerm extractEntry src/app/components/navigation.jsx
-133 silly gunzTarPerm modified mode [ 'src/app/components/navigation.jsx', 438, 420 ]
-134 silly gunzTarPerm extractEntry src/less/main.less
-135 silly gunzTarPerm modified mode [ 'src/less/main.less', 438, 420 ]
-136 silly gunzTarPerm extractEntry src/www/index.html
-137 silly gunzTarPerm modified mode [ 'src/www/index.html', 438, 420 ]
-138 silly lockFile 5c8a9ce2-g-npm-cache-velcro-1-0-1-package tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package
-139 silly lockFile 5c8a9ce2-g-npm-cache-velcro-1-0-1-package tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package
-140 silly lockFile 37df057e-m-cache-velcro-1-0-1-package-tgz tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-141 silly lockFile 37df057e-m-cache-velcro-1-0-1-package-tgz tar://C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-142 verbose chmod C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz 644
-143 silly chown skipping for windows C:\Users\jgleason\AppData\Roaming\npm-cache\velcro\1.0.1\package.tgz
-144 silly lockFile 3a52ce78- .
-145 silly lockFile 3a52ce78- .
-146 silly publish { name: 'velcro',
-146 silly publish   version: '1.0.1',
-146 silly publish   author: { name: 'John Gleason', email: 'jogleasonjr@gmail.com' },
-146 silly publish   description: 'Sample project that uses react-bootstrap with reactify, browserify, and browser-sync.',
-146 silly publish   browserify: { transform: [ [Object] ] },
-146 silly publish   devDependencies:
-146 silly publish    { 'browser-sync': '^1.8.1',
-146 silly publish      browserify: '^7.0.3',
-146 silly publish      gulp: '^3.8.10',
-146 silly publish      'gulp-autoprefixer': '^2.0.0',
-146 silly publish      'gulp-less': '^2.0.1',
-146 silly publish      'gulp-notify': '^2.1.0',
-146 silly publish      'gulp-sourcemaps': '^1.2.8',
-146 silly publish      'gulp-util': '^3.0.1',
-146 silly publish      'pretty-hrtime': '^0.2.2',
-146 silly publish      reactify: '^0.17.1',
-146 silly publish      'require-dir': '^0.1.0',
-146 silly publish      underscore: '^1.7.0',
-146 silly publish      'vinyl-source-stream': '^1.0.0',
-146 silly publish      watchify: '^2.2.1' },
-146 silly publish   dependencies:
-146 silly publish    { 'react-bootstrap': '0.13.3',
-146 silly publish      'react-tap-event-plugin': '^0.1.3' },
-146 silly publish   readme: '# velcro\r\nSample project that uses react-bootstrap with reactify, browserify, and browser-sync.\r\n',
-146 silly publish   readmeFilename: 'README.md',
-146 silly publish   _id: 'velcro@1.0.1',
-146 silly publish   dist: { shasum: 'b2025c64c5c45e4c7523e9dc3d8bd4cdce2310c0' },
-146 silly publish   _from: '.' }
-147 verbose url raw velcro
-148 verbose url resolving [ 'https://registry.npmjs.org/', './velcro' ]
-149 verbose url resolved https://registry.npmjs.org/velcro
-150 info trying registry request attempt 1 at 11:49:12
-151 http PUT https://registry.npmjs.org/velcro
-152 http 403 https://registry.npmjs.org/velcro
-153 error publish Failed PUT 403
-154 error Error: forbidden user: jogleasonjr not authorized to modify velcro
-154 error Changed: description "A simple flat-file blogging platform that uses markdown and jade" -> "Sample project that uses react-bootstrap with reactify, browserify, and browser-sync."
-154 error Changed: dist-tags.latest "0.1.7" -> "1.0.1"
-154 error Added: versions.1.0.1
-154 error Changed: readme "# Velcro\u000a\u000aVelcro is a simple, flat-file, blogging platform. It uses Markdown and Jade.\u000a\u000a![Velcro in the terminal][terminal]\u000a\u000a# Installation\u000a\u000a`npm install velcro`\u000a\u000a# Usage\u000a\u000a###Options:\u000a\u000a`-h, --help`     output usage information\u000a\u000a`-V, --version`  output the version number\u000a\u000a###Commands:\u000a\u000a`velcro create [folder]` Creates a new blog. If the destination folder does not exists it will be created. If no folder is passed, it will use the current directory (as long as it's empty).\u000a\u000a`velcro compile` Compiles all files to `/public`\u000a\u000a`velcro watch` Watches for changes in files inside the `themes` or `posts` folders, and re-compiles all the posts and .html files.\u000a\u000a# Configuration\u000aThe most basic configuration of it's stored in `velcro.json`\u000a\u000a\u000a    {\u000a        \"name\":\"Velcro\",\u000a        \"description\":\"A simple blogging platform built in node.js\",\u000a        \"author\":\"Bruno Lazzaro\",\u000a        \"index_post_count\": 5,\u000a        \"theme\":\"default\",\u000a        \"date_format\":\"mm/dd HH:mm\"\u000a    }\u000a\u000a\u000aAlso, each theme comes with it's own `config.json` file.\u000a\u000aThe most important ones are the index post count and the date_format. For valid date formats check [this page.][dateformat] \u000a\u000a# Themes\u000aWhen you do `velcro create` the default theme is created in the themes folder. But if you want to start from scratch only **these files are needed**:\u000a\u000a- index.jade (The index template)\u000a- archive.jade (The Archive template)\u000a- post.jade (Individual post template)\u000a- config.json (Theme specific configuration, can be empty but not non-existent).\u000a\u000aYou can also copy the default theme on the `themes` folder. To change your theme, just change the value in the configuration file (velcro.json) to match the foldername inside of the `themes` folder.\u000a\u000aAfter compilation, all your theme files are copied to the public folder.\u000a\u000a\u000a# Templates\u000aVelcro exposes certain base properties to jade along with all the post data and markdown metadata. \u000a\u000a## Main Properties:\u000a\u000a- `velcro.description` (blog description, stored in velcro.json) - `p= velcro.description`\u000a- `velcro.name` (blog name, stored in velcro.json) - `h1 #{velcro.name}`\u000a- All of the `velcro.json` properties.\u000a- `theme`, all of the properties of config.json - `h2 #{theme.fancy_variable}`\u000a\u000a## Post Data\u000a\u000a- `post.author` (if none is defined in the markdown metadata, then it uses the one from the velcro.json file)\u000a- `post.extract` (The first paragraph of the post, if it's not defined then it will be generated for you)\u000a- `post.date` (A string representing the time of last modification of the post, wich is usually when it was created)\u000a- `post.url` (only on archive and index templates)\u000a- `post.tags` (An array of tags, only if they were specified in a comma separated list on the markdown metadata)\u000a\u000a## Markdown Metadata\u000a\u000aYou also get all your markdown metadata inside the post object, for example if you do (in your markdown file):\u000a\u000a    pi: 3.14\u000a\u0009cat: fluffy\u000a\u000aThen on your template you'd be able to do:\u000a   \u000a    My cat is #{post.cat} and Pi is #{post.pi}\u000a\u000a### Why velcro?\u000aSo when you use it people be like, **\"oh, he got the velcro\"**. \u000a\u000a:shipit:\u000a\u000a[dateformat]: http://blog.stevenlevithan.com/archives/date-time-format\u000a[terminal]: http://i.imgur.com/NDNifpz.png" -> "# velcro\u000d\u000aSample project that uses react-bootstrap with reactify, browserify, and browser-sync.\u000d\u000a"
-154 error Changed: time.modified "2013-06-18T00:57:00.451Z" -> "2015-02-06T17:52:37.503Z"
-154 error Added: time.1.0.1
-154 error Changed: author.name "Bruno Lazzaro" -> "John Gleason"
-154 error Changed: author.email "brunomilestone@gmail.com" -> "jogleasonjr@gmail.com"
-154 error Deleted: repository
-154 error Deleted: keywords
-154 error Deleted: license
-154 error Added: _attachments: velcro
-154 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:237:14)
-154 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
-154 error     at Request.EventEmitter.emit (events.js:98:17)
-154 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
-154 error     at Request.EventEmitter.emit (events.js:117:20)
-154 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
-154 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
-154 error     at _stream_readable.js:920:16
-154 error     at process._tickCallback (node.js:415:13)
-155 error If you need help, you may report this *entire* log,
-155 error including the npm and node versions, at:
-155 error     <http://github.com/npm/npm/issues>
-156 error System Windows_NT 6.2.9200
-157 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
-158 error cwd C:\tfs\SajanSoftware\TransplicityX\Sandbox\velcro
-159 error node -v v0.10.26
-160 error npm -v 1.4.3
-161 verbose exit [ 1, true ]
+5 error Error: Git working directory not clean.
+5 error M README.md
+5 error D npm-debug.log
+5 error M package.json
+5 error     at C:\Program Files\nodejs\node_modules\npm\lib\version.js:98:35
+5 error     at ChildProcess.exithandler (child_process.js:635:7)
+5 error     at ChildProcess.EventEmitter.emit (events.js:98:17)
+5 error     at maybeClose (child_process.js:743:16)
+5 error     at Socket.<anonymous> (child_process.js:956:11)
+5 error     at Socket.EventEmitter.emit (events.js:95:17)
+5 error     at Pipe.close (net.js:465:12)
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Windows_NT 6.2.9200
+8 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "version" "patch"
+9 error cwd C:\tfs\SajanSoftware\TransplicityX\Sandbox\velcro
+10 error node -v v0.10.26
+11 error npm -v 1.4.3
+12 verbose exit [ 1, true ]

@@ -1,8 +1,13 @@
 {
   "name": "react-bootstrap-starter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "John Gleason <jogleasonjr@gmail.com>",
   "description": "Sample project that uses react-bootstrap with reactify, browserify, and browser-sync.",
+  "main": "./src/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jogleasonjr/react-bootstrap-starter.git"
+  },
   "browserify": {
     "transform": [
       [

@@ -16,7 +16,9 @@ npm install -g gulp
 
 #### Option 2: NPM
 
-_TBD_
+```
+npm install react-bootstrap-starter
+```
 
 ## How to use it
 
