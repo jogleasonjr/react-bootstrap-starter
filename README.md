@@ -1,7 +1,7 @@
 # velcro
 Sample project that uses react-bootstrap with reactify, browserify, and browser-sync.
 
-### Installation.
+## Installation
 
 #### Option 1: Clone this repo
 
