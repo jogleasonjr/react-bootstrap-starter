@@ -1,7 +1,8 @@
 {
-  "name": "velcro",
-  "version": "0.0.1",
-  "description": "Sample project that uses react-bootstrap",
+  "name": "react-bootstrap-starter",
+  "version": "1.0.1",
+  "author": "John Gleason <jogleasonjr@gmail.com>",
+  "description": "Sample project that uses react-bootstrap with reactify, browserify, and browser-sync.",
   "browserify": {
     "transform": [
       [

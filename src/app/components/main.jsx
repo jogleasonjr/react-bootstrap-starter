@@ -9,7 +9,7 @@ var Main = React.createClass({
         return (
             <div>
 
-                <Navigation projectName="Velcro" />
+                <Navigation projectName="react-bootstrap-starter" />
 
                 <div className="container">
                     <div className="starter-template">
