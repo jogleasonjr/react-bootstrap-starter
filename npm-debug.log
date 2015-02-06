@@ -7,8 +7,6 @@
 3 info using node@v0.10.26
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
 5 error Error: Git working directory not clean.
-5 error M README.md
-5 error D npm-debug.log
 5 error M package.json
 5 error     at C:\Program Files\nodejs\node_modules\npm\lib\version.js:98:35
 5 error     at ChildProcess.exithandler (child_process.js:635:7)
