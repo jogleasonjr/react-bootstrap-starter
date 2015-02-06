@@ -1,4 +1,4 @@
-# velcro
+# react-bootstrap-starter
 Sample project that uses react-bootstrap with [gulp](https://github.com/gulpjs/gulp), [reactify](https://github.com/andreypopp/reactify), [browserify](https://github.com/substack/node-browserify), and [browser-sync](https://github.com/BrowserSync/browser-sync). Inspired by [material-ui](https://github.com/callemall/material-ui).
 
 ## Installation
@@ -8,8 +8,8 @@ Sample project that uses react-bootstrap with [gulp](https://github.com/gulpjs/g
 Simply clone this repo and everything is here for you:
 
 ```
-git clone https://github.com/jogleasonjr/velcro.git
-cd velcro
+git clone https://github.com/jogleasonjr/react-bootstrap-starter.git
+cd react-bootstrap-starter
 npm install
 npm install -g gulp
 ```
