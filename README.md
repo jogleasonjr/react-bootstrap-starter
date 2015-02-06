@@ -18,6 +18,9 @@ npm install -g gulp
 
 ```
 npm install react-bootstrap-starter
+cd node_modules/react-bootstrap-starter
+npm install
+npm install -g gulp
 ```
 
 ## How to use it
