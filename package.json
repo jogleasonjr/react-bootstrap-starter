@@ -34,7 +34,9 @@
     "watchify": "^2.2.1"
   },
   "dependencies": {
-    "react-bootstrap": "0.13.3",
+    "react": "^15.2.0",
+    "react-bootstrap": "^0.13.3",
+    "react-dom": "^15.2.0",
     "react-tap-event-plugin": "^0.1.3"
   }
 }
