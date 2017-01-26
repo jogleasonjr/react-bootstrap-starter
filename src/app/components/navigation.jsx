@@ -4,7 +4,7 @@ var Bootstrap = require('react-bootstrap');
 var Navbar = Bootstrap.Navbar;
 var Nav = Bootstrap.Nav;
 var NavItem = Bootstrap.NavItem;
-var DropdownButton = Bootstrap.DropdownButton;
+var NavDropdown = Bootstrap.NavDropdown;
 var MenuItem = Bootstrap.MenuItem;
 
 var Navigation = React.createClass({
@@ -14,16 +14,16 @@ var Navigation = React.createClass({
             <Navbar className="navbar navbar-inverse navbar-fixed-top">
                 <a className="navbar-brand" href="#">{this.props.projectName}</a>
                 <Nav className="nav navbar-nav">
-                    <NavItem className="active" eventKey={1} href="#home">Home</NavItem>
-                    <NavItem eventKey={2} href="#about">About</NavItem>
-                    <NavItem eventKey={2} href="#about">Contact</NavItem>
-                    <DropdownButton eventKey={3} title="Dropdown">
-                        <MenuItem eventKey="1">Action</MenuItem>
-                        <MenuItem eventKey="2">Another action</MenuItem>
-                        <MenuItem eventKey="3">Something else here</MenuItem>
+                    <NavItem className="active" href="#home">Home</NavItem>
+                    <NavItem href="#about">About</NavItem>
+                    <NavItem href="#about">Contact</NavItem>
+                    <NavDropdown id="dropdown" title="Dropdown">
+                        <MenuItem>Action</MenuItem>
+                        <MenuItem>Another action</MenuItem>
+                        <MenuItem>Something else here</MenuItem>
                         <MenuItem divider />
-                        <MenuItem eventKey="4">Separated link</MenuItem>
-                    </DropdownButton>
+                        <MenuItem>Separated link</MenuItem>
+                    </NavDropdown>
                 </Nav>
             </Navbar>
         );
